@@ -1,22 +1,20 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
-import '../App.css';
-
+import './start.css' 
 function Start() {
     return (
-        <body >
+        <div >
             <div className="page1">
-                <h1 style={{ textAlign: "center",  color: "#e0ded2", marginBottom:"3%" }}>
+                <h1 className="text" >
                     Click here to start the presence check
-                    </h1>
+                </h1>
                 <Link to={`/Appel/`}>
                     <button variant="primary" size="lg" className="btn-com">
                         Start
                     </button>
                 </Link>
             </div>
-
-        </body>
+        </div>
     )
 };
 

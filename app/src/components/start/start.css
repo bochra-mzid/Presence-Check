@@ -1,0 +1,17 @@
+.text{
+    text-align: center;
+    color: #e0ded2;
+    margin-bottom: 3%;
+}
+
+.page1{
+    width: 80%;
+    border: 3px solid #e0ded2;
+    padding:5% ;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(189, 187, 187, 0.2), 0 6px 20px 0 rgba(189, 182, 182, 0.19);
+  }
+  

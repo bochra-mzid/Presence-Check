@@ -1,22 +1,18 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import {ListGroup} from 'react-bootstrap'
-import Btn from './Btn'
+import Bouton from '../Bouton/Bouton'
+import './Display.css'
 
 function Display(props) {
     return(
         <ListGroup>
-
-            {props.l.map(item => (
+            {props.list.map((item) => (
                 <ListGroup.Item className="list">
-
                     <div style={{float: "left"}}>{item.name}</div>
-                    <Btn i={item}/>
-
+                    <Bouton i={item}/>
                 </ListGroup.Item>
                 ))}
-
         </ListGroup>
     )
 }
-
 export default Display
